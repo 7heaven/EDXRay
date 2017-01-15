@@ -48,7 +48,7 @@ namespace EDX
 			float mExpR;
 
 		public:
-			GaussianFilter(const float stdDiv = 0.5f)
+			GaussianFilter(const float stdDiv = 0.25f)
 				: Filter(4 * stdDiv)
 				, mStdDev(stdDiv)
 			{
